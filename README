@@ -1,0 +1,13 @@
+Progetto 1 del corso di laboratorio ciberfisico.
+
+Sono presenti 3 moduli ROS, che svolgono i seguenti compiti:
+	publisher:
+		pubblica un topic personalizzato con 3 campi (nome, eta' corso)
+	selector:
+		pubblica un topic di una lettera, che indica la scelta dell'utente
+	receiver:
+		riceve i dati dei topic degli altri 2 moduli, 
+		e mostra a schermo solo il campo publisher scelto dal selector. 
+
+Si possono eseguire tutti assieme con il comando:
+	roslaunch homework1 homework1.launch

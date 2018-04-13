@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="homework1" name="publisher" type="publisher" output="screen"/>
+  <node pkg="homework1" name="receiver" type="receiver" output="screen"/>
+  <node pkg="homework1" name="selector" type="selector" output="screen"/>
+
+</launch>
